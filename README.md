@@ -129,86 +129,32 @@ project/
 │       │   │   ├── TransportEntry.jsx
 │       │   │   └── tailwind.js
 │       │   ├── Footer/
-│       │   │   └── index.js
 │       │   ├── Navbar/
-│       │   │   ├── images/
-│       │   │   └── index.js
 │       │   ├── Pledges/
-│       │   │   └── index.js
 │       │   └── ProtectedRoute/
-│       │       └── index.js
 │       ├── data/
 │       │   └── indianLocations.js
 │       ├── pages/
-│       │   ├── assets/
-│       │   │   ├── images/
-│       │   │   └── js/
 │       │   ├── Calculator.js
 │       │   ├── CarbonTrading.js
 │       │   ├── Dashboard.js
-│       │   ├── Donation.js
 │       │   ├── Home.js
-│       │   ├── Leaderboard.js
-│       │   ├── Learn.js
-│       │   ├── Login.js
-│       │   ├── MyFootprint.js
-│       │   ├── MyPledges.js
-│       │   ├── News.js
-│       │   ├── NoMatch.js
 │       │   ├── Profile.js
-│       │   ├── Signup.js
-│       │   └── Weather.js
+│       │   └── ...
 │       ├── utils/
-│       │   ├── aiClient.js
-│       │   ├── aiRules.js
-│       │   ├── auth.js
-│       │   ├── calculate.js             
-│       │   ├── carbonTrading.js
-│       │   ├── emissionFactors.js        
-│       │   ├── footprintHistory.js
-│       │   ├── helpers.js
-│       │   ├── mutations.js
-│       │   ├── newsClient.js
-│       │   ├── profileClient.js
-│       │   ├── profileStorage.js
-│       │   ├── queries.js
-│       │   ├── theme.js
-│       │   └── weatherClient.js
-│       ├── App.js                      
-│       ├── index.css
+│       │   ├── calculate.js      ⭐
+│       │   ├── emissionFactors.js ⭐
+│       │   └── ...
+│       ├── App.js                ⭐
 │       └── index.js
 └── server/
     ├── controllers/
-    │   ├── aiController.js
-    │   ├── newsController.js
-    │   └── tradingController.js
     ├── models/
-    │   ├── Home.js
-    │   ├── Pledge.js
-    │   ├── Trade.js
-    │   ├── TradingUser.js
-    │   ├── Travel.js
-    │   ├── User.js
-    │   └── index.js
-    ├── routes/                        
-    │   ├── aiRoutes.js
-    │   ├── newsRoutes.js
-    │   ├── tradingRoutes.js
-    │   ├── userRoutes.js
-    │   └── weather.js
-    ├── schema/                          
-    │   ├── index.js
-    │   ├── resolvers.js
-    │   └── typeDefs.js
+    ├── routes/                   ⭐
+    ├── schema/                   ⭐
     ├── utils/
-    │   ├── aiService.js
-    │   ├── auth.js
-    │   ├── newsService.js
-    │   ├── tradingLogic.js
-    │   └── weatherService.js
     ├── .env.example
-    └── server.js                       
-
+    └── server.js                ⭐
 
 # Important Folders
 
