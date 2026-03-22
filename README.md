@@ -105,56 +105,30 @@ root/
 ├── server/ # Node/Express backend
 ├── package.json
 
+## 📁 Project Structure
+
+```bash
 project/
 ├── client/
 │   ├── public/
 │   │   ├── favicon.png
 │   │   ├── index.html
-│   │   ├── logo192.png
-│   │   ├── logo512.png
-│   │   ├── manifest.json
-│   │   └── robots.txt
+│   │   └── ...
 │   └── src/
 │       ├── components/
-│       │   ├── calculator/
-│       │   │   ├── AISuggestions.jsx
-│       │   │   ├── ChartCard.js
-│       │   │   ├── InputField.js
-│       │   │   ├── InputSection.jsx
-│       │   │   ├── LivePreview.jsx
-│       │   │   ├── ResultCard.js
-│       │   │   ├── SectionCard.js
-│       │   │   ├── SnapshotCard.jsx
-│       │   │   ├── SummaryCard.jsx
-│       │   │   ├── TransportEntry.jsx
-│       │   │   └── tailwind.js
-│       │   ├── Footer/
-│       │   ├── Navbar/
-│       │   ├── Pledges/
-│       │   └── ProtectedRoute/
-│       ├── data/
-│       │   └── indianLocations.js
 │       ├── pages/
-│       │   ├── Calculator.js
-│       │   ├── CarbonTrading.js
-│       │   ├── Dashboard.js
-│       │   ├── Home.js
-│       │   ├── Profile.js
-│       │   └── ...
 │       ├── utils/
-│       │   ├── calculate.js      ⭐
-│       │   ├── emissionFactors.js ⭐
-│       │   └── ...
-│       ├── App.js                ⭐
+│       ├── App.js ⭐
 │       └── index.js
 └── server/
     ├── controllers/
     ├── models/
-    ├── routes/                   ⭐
-    ├── schema/                   ⭐
+    ├── routes/ ⭐
+    ├── schema/ ⭐
     ├── utils/
     ├── .env.example
-    └── server.js                ⭐
+    └── server.js ⭐
+```
 
 # Important Folders
 
