@@ -105,46 +105,112 @@ root/
 ├── server/ # Node/Express backend
 ├── package.json
 
-## 📁 Project Structure
 
-```bash
+
+```
 project/
 ├── client/
 │   ├── public/
 │   │   ├── favicon.png
 │   │   ├── index.html
-│   │   └── ...
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
 │   └── src/
 │       ├── components/
+│       │   ├── calculator/
+│       │   │   ├── AISuggestions.jsx
+│       │   │   ├── ChartCard.js
+│       │   │   ├── InputField.js
+│       │   │   ├── InputSection.jsx
+│       │   │   ├── LivePreview.jsx
+│       │   │   ├── ResultCard.js
+│       │   │   ├── SectionCard.js
+│       │   │   ├── SnapshotCard.jsx
+│       │   │   ├── SummaryCard.jsx
+│       │   │   ├── TransportEntry.jsx
+│       │   │   └── tailwind.js
+│       │   ├── Footer/
+│       │   │   └── index.js
+│       │   ├── Navbar/
+│       │   │   ├── images/
+│       │   │   └── index.js
+│       │   ├── Pledges/
+│       │   │   └── index.js
+│       │   └── ProtectedRoute/
+│       │       └── index.js
+│       ├── data/
+│       │   └── indianLocations.js
 │       ├── pages/
+│       │   ├── assets/
+│       │   │   ├── images/
+│       │   │   └── js/
+│       │   ├── Calculator.js
+│       │   ├── CarbonTrading.js
+│       │   ├── Dashboard.js
+│       │   ├── Donation.js
+│       │   ├── Home.js
+│       │   ├── Leaderboard.js
+│       │   ├── Learn.js
+│       │   ├── Login.js
+│       │   ├── MyFootprint.js
+│       │   ├── MyPledges.js
+│       │   ├── News.js
+│       │   ├── NoMatch.js
+│       │   ├── Profile.js
+│       │   ├── Signup.js
+│       │   └── Weather.js
 │       ├── utils/
-│       ├── App.js ⭐
+│       │   ├── aiClient.js
+│       │   ├── aiRules.js
+│       │   ├── auth.js
+│       │   ├── calculate.js         
+│       │   ├── carbonTrading.js
+│       │   ├── emissionFactors.js       
+│       │   ├── footprintHistory.js
+│       │   ├── helpers.js
+│       │   ├── mutations.js
+│       │   ├── newsClient.js
+│       │   ├── profileClient.js
+│       │   ├── profileStorage.js
+│       │   ├── queries.js
+│       │   ├── theme.js
+│       │   └── weatherClient.js
+│       ├── App.js                       
+│       ├── index.css
 │       └── index.js
 └── server/
     ├── controllers/
+    │   ├── aiController.js
+    │   ├── newsController.js
+    │   └── tradingController.js
     ├── models/
-    ├── routes/ ⭐
-    ├── schema/ ⭐
+    │   ├── Home.js
+    │   ├── Pledge.js
+    │   ├── Trade.js
+    │   ├── TradingUser.js
+    │   ├── Travel.js
+    │   ├── User.js
+    │   └── index.js
+    ├── routes/                         
+    │   ├── aiRoutes.js
+    │   ├── newsRoutes.js
+    │   ├── tradingRoutes.js
+    │   ├── userRoutes.js
+    │   └── weather.js
+    ├── schema/                      
+    │   ├── index.js
+    │   ├── resolvers.js
+    │   └── typeDefs.js
     ├── utils/
+    │   ├── aiService.js
+    │   ├── auth.js
+    │   ├── newsService.js
+    │   ├── tradingLogic.js
+    │   └── weatherService.js
     ├── .env.example
-    └── server.js ⭐
-```
-
-# Important Folders
-
-# client/
-- `pages/` → Main UI pages
-- `components/` → Reusable UI
-- `utils/` → Business logic & API calls
-- `data/` → Static data
-
-# server/
-- `routes/` → REST APIs
-- `controllers/` → Logic handlers
-- `schema/` → GraphQL definitions
-- `models/` → MongoDB schemas
-- `utils/` → Services (AI, weather, news)
-
+    └── server.js                         
 ---
 
 # How It Works
