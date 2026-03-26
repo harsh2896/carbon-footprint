@@ -286,6 +286,8 @@ Partial reliance on localStorage
 Marketplace is demo-only
 Mixed architecture (GraphQL + REST)
 JWT stored in localStorage (can be improved)
+
+---
 # Future Improvements
 More accurate India-specific emission data
 Server-side analytics history
@@ -294,7 +296,7 @@ Advanced AI personalization
 Real carbon credit integration
 CI/CD and testing
 Admin dashboard
-
+---
 # Final Note
 
 This project demonstrates:
